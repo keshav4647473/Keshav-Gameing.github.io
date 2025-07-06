@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #a8f0a5, #38b000);
+        }
+        .header {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            background-color: #42ba96;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .header span {
+            margin-left: 10px;
+        }
+        .card {
+            background: white;
+            max-width: 350px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+        }
+        .card h2 {
+            margin: 10px 0 5px 0;
+        }
+        .details {
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .badge {
+            background-color: #0a0;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+        .version {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+        .button-group {
+            margin-top: 15px;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .btn-android {
+            background-color: #34c759;
+            color: white;
+        }
+        .btn-ios {
+            background-color: #ccc;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        🎮<span>Games</span>
+    </div>
+    <div class="card">
+        <img src="game-icon.png" alt="Game Icon" />
+        <h2>GTA KV7</h2>
+        <div class="details">1,000,000+ • Download</div>
+        <div class="badge">★ 4.8</div>
+        <div class="version">Latest: 1.0.3</div>
+        <div class="button-group">
+            <button class="btn btn-ios" disabled>iOS</button>
+            <button class="btn btn-android">Android</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="freefire-icon.png" alt="Game Icon" />
+        <h2>Free Fire KV</h2>
+        <div class="details">5,000,000+ • Download</div>
+        <div class="badge">★ 4.6</div>
+        <div class="version">Latest: 2.1.0</div>
+        <div class="button-group">
+            <button class="btn btn-ios" disabled>iOS</button>
+            <button class="btn btn-android">Android</button>
+        </div>
+    </div>
+</body>
+
+</html>
